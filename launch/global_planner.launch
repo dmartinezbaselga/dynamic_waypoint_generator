@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+<param name="/use_sim_time" value="true"/>
+<group ns="robot_0">
+<node name="global_planner_dovs" pkg="rl_dovs" type="global_planner_dovs" output="screen">
+		<param name="global_planner_method" value="4"/>
+</node>
+</group>
+</launch>
+

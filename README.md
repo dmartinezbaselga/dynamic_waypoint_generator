@@ -2,7 +2,7 @@
 
 # Long range navigation in complex and dynamic environments with full-Stack S-DOVS
 
-# [Paper]() || [Video]()
+# [Paper](https://www.mdpi.com/2076-3417/13/15/8925) || [Video](https://youtu.be/ALvl7WM2RQc)
 
 ## Abstract
 Robotic autonomous navigation in dynamic environments is a complex problem, as traditional planners may fail to take dynamic obstacles and their variables into account. The Strategy-based Dynamic Object Velocity Space (S-DOVS) planner has been proposed as a solution to navigate in such scenarios. However, it has limitations such as the inability to reach a goal in a large known map, avoid convex objects or handle trap situations. In this article, we present a modified version of the S-DOVS planner that is integrated into a full navigation stack, which includes a localization system, obstacle tracker, and waypoint generator. Our waypoint generator has been shown to outperform other approaches in terms of success rate and time to reach the goal when combined with the S-DOVS planner. The modified S-DOVS planner takes into account robot kinodynamic constraints and is capable of navigating through large scenarios with known map information. Extensive simulation and ground robot tests demonstrate the effectiveness of our system, even in the presence of dynamic obstacles and replanning requirements. Overall, our work represents a significant step forward in the development of robust and reliable autonomous navigation systems for real-world scenarios.
@@ -32,5 +32,14 @@ The waypoint generator to use may be chosen in the launch file.
 
 
 ## Citation
-
-
+```bibtex
+@article{martinez2023long,
+  title={Long-Range Navigation in Complex and Dynamic Environments with Full-Stack S-DOVS},
+  author={Martinez-Baselga, Diego and Riazuelo, Luis and Montano, Luis},
+  journal={Applied Sciences},
+  volume={13},
+  number={15},
+  pages={8925},
+  year={2023},
+  publisher={MDPI}
+}
